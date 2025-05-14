@@ -24,7 +24,7 @@ namespace WindowsFormsApp2
 
         }
 
-        SqlConnection sqlbaglanti = new SqlConnection($@"Data Source=195.142.166.165;Initial Catalog=gasstation;User ID=faruk;Password=faruk.1234;Encrypt=True;TrustServerCertificate=True");
+        SqlConnection sqlbaglanti = new SqlConnection($@"Data Source=.;Initial Catalog=gasstation;User ID=faruk;Password=faruk.1234;Encrypt=True;TrustServerCertificate=True");
         public void button1_Click(object sender, EventArgs e)
         {
             try
