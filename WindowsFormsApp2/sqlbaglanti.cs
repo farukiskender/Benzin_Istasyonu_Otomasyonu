@@ -12,7 +12,7 @@ namespace WindowsFormsApp2
     {
         public static SqlConnection BaglantiGetir()
         {
-            return new SqlConnection($@"Data Source=.;Initial Catalog=gasstation;User ID=faruk;Password=faruk.1234;Encrypt=True;TrustServerCertificate=True");
+            return new SqlConnection($@"Data Source=.;Initial Catalog=gasstation;User ID=sysdba;Password=Faruk.1234;Encrypt=True;TrustServerCertificate=True");
         }
     }
 }
